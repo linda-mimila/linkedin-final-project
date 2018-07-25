@@ -1,16 +1,29 @@
-title{
-    border-style: outset;
-    border-style: solid;
-    border-width: medium;
-
-}
-body{
-    background-color: lightsalmon
-}
 h1{
     border-style: outset;
     border-style: solid;
     border-width: medium;
-    font: "Times New Roman", Times, serif;
+    border-color: lightgray;
 
-} 
+}
+body{
+    background-color: lightcoral;
+}
+h1{
+    color:lightcoral;
+    font: "Times New Roman";
+    text-align: center;
+    margin: 30px;
+    background:lightgray;
+    outline: 1px solid lightgray;
+    outline-offset: 15px;
+}
+div.gallery{
+    margin: 6px;
+    border: 3px solid lightgrey;
+    float: left;
+    width: 200px;
+}
+
+ul.style{
+    color:red;
+}
