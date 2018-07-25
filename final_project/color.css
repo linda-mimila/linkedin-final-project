@@ -1,0 +1,16 @@
+title{
+    border-style: outset;
+    border-style: solid;
+    border-width: medium;
+
+}
+body{
+    background-color: lightsalmon
+}
+h1{
+    border-style: outset;
+    border-style: solid;
+    border-width: medium;
+    font: "Times New Roman", Times, serif;
+
+} 
