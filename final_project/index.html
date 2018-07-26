@@ -7,45 +7,65 @@
     <body>
             <h1> Something !</h1>
         <h2>To Do List </h2>
-        <ul style="list-style-type:square"> 
-           
-            <div>
-                <input type="checkbox" id="School" name="feature"/>
-                <label for="School"> School</label>
-            </div>
-        
-            <div>
-                <input type="checkbox" id="My Day" name="feature"/>
-                <label for="My Days"> My Day</label>
-            </div>
-        
-            <div>
-                <input type="checkbox" id="Work" name="feature"/>
-                <label for="Work"> Work</label>
-            </div>
-            <div>
-                <img src="http://www.transparentpng.com/download/logo-instagram/4VmrRH-logo-instagram-transparency-png.png" class="instagram-logo" alt="">
-            </div>
-            <div class="gallery">
-                      <img src="https://scontent-lax3-1.cdninstagram.com/vp/113f025ce0acf51e75baf7a35b598ee7/5BF6C12B/t51.2885-15/e35/36830665_216183545886313_3376192848431939584_n.jpg" alt="" width="200" height="200">
+        <div class="parent">
+            <ul style="list-style-type:square" class="school"> 
+                <li class="to-do-item"> 
+                    <input type="checkbox" name="feature"/>
+                    <label for="School"> School</label>
+                </li> 
 
-                  </div>
-                  
-            <div class="gallery">
-                      <img src="https://www.readersdigest.ca/wp-content/uploads/2011/01/4-ways-cheer-up-depressed-cat.jpg" alt="" width="200" height="200">
+                <li class="to-do-item">
+                    <input type="checkbox" name="feature"/>
+                    <label for="My Days"> My Day</label>
+                </li>
+            
+                <li class="to-do-item">
+                    <input type="checkbox" name="feature"/>
+                    <label for="Work"> Work</label>
+                </li>
+            </ul>
+            <form action="" method="get" class="form">
+                <div class="right">
+                    <label for="date"> Enter Due Date: </label>
+                    <input type="date" name="date" id="date" required>
+                </div>
+                <div class="right">
+                        <label for="title">Enter Title: </label>
+                    <input type="title" name="title" id="title" required>
+                </div>
+                <div class="right">
+                        <label for="description">Enter Description: </label>
+                    <input type="description" name="description" id="description" required>
+                </div>
+            </form>
+        </div>
+                 
+            
+        <div>
+            <img src="http://www.transparentpng.com/download/logo-instagram/4VmrRH-logo-instagram-transparency-png.png" class="instagram-logo" alt="">
+        </div>
+        <div class="gallery">
+            <img src="https://scontent-lax3-1.cdninstagram.com/vp/113f025ce0acf51e75baf7a35b598ee7/5BF6C12B/t51.2885-15/e35/36830665_216183545886313_3376192848431939584_n.jpg" alt="" width="200" height="200">
 
-                  </div>
-                  
-             <div class="gallery">
-                      <img src="" alt="" width="200" height="200">
-                  </div>
-                  
-            <div class="gallery">
-                      <img src="" alt="" width="200" height="200">
-                  </div>
-    <form>
+        </div>
+                
+        <div class="gallery">
+            <img src="https://www.readersdigest.ca/wp-content/uploads/2011/01/4-ways-cheer-up-depressed-cat.jpg" alt="" width="200" height="200">
 
-    </form>
+        </div>
+                
+        <div class="gallery">
+            <img src="" alt="" width="200" height="200">
+        </div>
+                
+        <div class="gallery">
+            <img src="" alt="" width="200" height="200">
+        </div>
+    
+   
+
+            
+
       
         </fieldset>
     </body>
