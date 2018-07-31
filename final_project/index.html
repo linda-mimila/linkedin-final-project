@@ -3,16 +3,13 @@
        <head> 
             <link rel="stylesheet" type="text/css" href="color.css">
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-            <script type="text/javascript" src="/static/js/main.js"></script>
+            <script type="text/javascript" src="main.js"></script>
        </head>
     <body>
             <h1> RE-REMINDER!</h1>
         <h2>To Do List </h2>
         <div id="notification" class="notification"></div>
-        <form>
-            <textarea id="blog-content" name="blog-content"></textarea>
-            <input type="submit" id="add-post" value="Post"/>
-        </form>
+
         <div class="parent">
             <ul style="list-style-type:square" class="school"> 
                 <li class="to-do-item"> 
@@ -41,10 +38,10 @@
                 </div>
                 <div class="right">
                         <label for="description">Enter Description: </label>
-                    <input type="description" name="description" id="description" required>
+                            <textarea id="blog-content" name="blog-content"></textarea>
                 </div>
                 <div>
-                    <button>submit</button>
+                    <input type="submit" class="add-post" value="Post"/>
                 </div>
             </form>
         </div>
@@ -70,12 +67,7 @@
         <div class="gallery">
             <img src="" alt="" width="200" height="200">
         </div>
-    
-   
 
-            
-
-      
         </fieldset>
     </body>
     </html>
